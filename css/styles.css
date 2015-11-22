@@ -1,0 +1,134 @@
+body {
+    background: #0b0d4a;
+    color: #fff;
+    text-align: center;
+}
+
+#wrapper {
+    background: #b28900;
+    border-radius: 1em;
+    border-top: 1px inset #f7f4d3;
+    border-left: 1px inset #f7f4d3;
+    border-bottom: 1px double #524d1a;
+    border-right: 1px double #524d1a;
+    box-shadow: 3px 3px 10px #eef inset,
+                -5px -5px 10px #112 inset,
+                5px 5px 10px #000;
+    min-width: 540px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000,
+                 0 0 10px #000;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 10px 0 0 0;
+}
+
+header h3 {
+    margin: 0 0 20px 0;
+    font-style: italic;
+}
+
+#newTodo {
+    width: 150px;    
+}
+
+#todoNoteForm {
+    background: #806200;
+    border: 1px dashed #b9a720;
+    border-radius: 1em;
+    box-shadow: 4px 4px 10px #000 inset,
+                0 0 10px #eef;
+    margin: 0 auto;
+    padding: 10px;
+    width: 400px;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    text-shadow: 1px 1px 1px #000;
+    width: 70px;
+}
+
+input, select {
+    display: inline-block;
+    margin: 7px 0;
+    width: 230px;
+}
+
+input#addEditButton,
+input#cancelButton {
+    left: 25px;
+    margin: 8px;
+    position: relative;
+    width: 120px;
+}
+
+input#deleteButton {
+    background: #5f4408;
+    color: #fff;
+    margin: 8px;
+    width: 80px;
+}
+
+h4.errorMsg {
+    color: #ff9999;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+div#todoNotesDiv {
+    background: #fff083;
+    border: 1px groove #eef;
+    border-radius: 1em;
+    box-shadow: 0 0 10px #eef inset,
+                2px 2px 20px #000;
+    margin: 10px auto 20px;
+    padding: 20px;
+    width: 75%;
+}
+
+div#todoNotesDiv h2 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    text-align: left;    
+}
+
+table#todoNotesTable {
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+table#todoNotesTable tr th {
+    background: #5f4408;
+    color: #fff;
+}
+
+table#todoNotesTable tr th:last-of-type {
+    background: #fff083;
+}
+
+table#todoNotesTable tr td {
+    background: #fffad3;
+    border-left: 1px dashed #524d1a;
+    border-bottom: 1px dashed #524d1a;
+    color: #000;
+    padding: 2px 8px;
+}
+
+table#todoNotesTable tr:nth-of-type(2) td {
+    border-top: 1px dashed #524d1a;
+}
+
+table#todoNotesTable tr td:last-of-type {
+    border-right: 1px dashed #524d1a;
+}
